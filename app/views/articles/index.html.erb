@@ -1,0 +1,16 @@
+<h1>List of articles</h1>
+<br>
+
+<ul>
+    <% @articles.each do |article| %>
+        <li class= "list">
+            <h4><%= link_to article.title.upcase, article_path(article), class:"title" %></h4>
+            <h5><%= link_to article.content, article_path(article), class:'content' %></h5>
+            <%= link_to "Supprimer l'article", article_path(article), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}, class:"pe-2 delete" %>
+        </li>
+    <% end %>
+    <div class="add">
+      <%= link_to "Create a post", new_article_path, class:"button" %>
+      <a href="/articles/new"><i class="fa-solid fa-square-plus"></i></a>
+    </div>
+</ul>

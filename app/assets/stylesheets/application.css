@@ -12,4 +12,91 @@
  *
  *= require_tree .
  *= require_self
- */
+*/
+.title{
+    color:cornflowerblue ;
+    text-decoration: none;
+}
+br{
+    color:black;
+    width:30px;
+}
+.content{
+    color:slategray;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+.delete{
+    text-decoration: none;
+    border: 1px solid slategray ;
+    border-radius: 8px;
+    padding: 8px 8px;
+    font-size: 14px;
+    color:slategray;
+}
+
+.list{
+    padding-bottom: 40px;
+}
+
+.title-infos{
+    font-size: 32px;
+    font-style: italic;
+}
+
+.title-content{
+  font-size: 24px;
+}
+
+h1{
+    color:cornflowerblue;
+}
+
+h1{
+    margin-bottom: 40px;
+}
+
+body{
+  font-family: 'Lora', serif;
+}
+
+.button{
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 8px 8px;
+    font-size: 14px;
+    color: black;
+    background-color:cornflowerblue;
+    opacity: 0.7;
+}
+
+.fa-solid{
+    font-size: 32px;
+    color:cornflowerblue ;
+    background-color: #ebf8e1;
+}
+
+.add{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    width: 160px;
+    border-radius: 8px;
+    padding:8px;
+    color: black;
+}
+
+.container{
+    width: 600px;
+    margin: 30 auto;
+}
+
+.button-add{
+    background-color:cornflowerblue;
+    border-radius: 8px;
+    padding: 8px 16px;
+    border: 1px solid cornflowerblue;
+    opacity:0.9;
+}
