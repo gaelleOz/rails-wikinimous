@@ -14,30 +14,32 @@
  *= require_self
 */
 .title{
-    color:cornflowerblue ;
+    color:#283d3b;
     text-decoration: none;
 }
-br{
-    color:black;
-    width:30px;
+.title:hover{
+color:#197278;
 }
 .content{
-    color:slategray;
+    color:#772e25;
     text-decoration: none;
     padding-bottom: 20px;
 }
+.content:hover{
+    color:#197278;
+    }
 
-.delete{
-    text-decoration: none;
-    border: 1px solid slategray ;
-    border-radius: 8px;
-    padding: 8px 8px;
-    font-size: 14px;
-    color:slategray;
-}
 
 .list{
     padding-bottom: 40px;
+    margin-top: 40px;
+    background-color:#e4a8a0;
+    border-radius: 6px;
+    padding: 10px;
+    list-style-type: none;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1); ;
+
 }
 
 .title-infos{
@@ -50,15 +52,16 @@ br{
 }
 
 h1{
-    color:cornflowerblue;
+    color:#197278;
 }
 
 h1{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 body{
   font-family: 'Lora', serif;
+  background-color:#edddd4;
 }
 
 .button{
@@ -66,26 +69,24 @@ body{
     border-radius: 8px;
     padding: 8px 8px;
     font-size: 14px;
-    color: black;
-    background-color:cornflowerblue;
-    opacity: 0.7;
+    background-color:#283d3b;
 }
 
 .fa-solid{
-    font-size: 32px;
-    color:cornflowerblue ;
-    background-color: #ebf8e1;
+    font-size: 16px;
+    color:#283d3b;
+}
+
+.fa-solid:hover{
+    color:#197278;
 }
 
 .add{
     display: flex;
     align-items: center;
     gap: 10px;
+    width: 200px;
 
-    width: 160px;
-    border-radius: 8px;
-    padding:8px;
-    color: black;
 }
 
 .container{
@@ -94,9 +95,27 @@ body{
 }
 
 .button-add{
-    background-color:cornflowerblue;
+    background-color:#283d3b;
     border-radius: 8px;
     padding: 8px 16px;
-    border: 1px solid cornflowerblue;
-    opacity:0.9;
+    border: 1px solid #197278;
+    color: white;
+}
+
+.back{
+    text-decoration: none;
+    border: 1px dotted #197278;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.fa-square-plus{
+    font-size: 24px;
+    color: #edddd4;
+}
+
+.add-an-art{
+    margin: 0;
+    color:#772e25;
+    font-size: 20px;
 }
